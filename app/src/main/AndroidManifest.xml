@@ -13,15 +13,19 @@
         android:theme="@style/Theme.SWproject"
         tools:targetApi="29">
 
+
+
         <activity android:name=".OrderPageActivity" />
         <activity android:name=".PointPageActivity" />
         <activity android:name=".CouponPageActivity" />
         <activity android:name=".NoticePageActivity"/>
         <activity android:name=".AskPageActivity"/>
         <activity android:name=".AskCreatePageActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".JoinPageActivity"/>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginPageActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
