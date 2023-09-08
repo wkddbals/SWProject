@@ -23,6 +23,7 @@
         <activity android:name=".AskCreatePageActivity"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".JoinPageActivity"/>
+        <activity android:name=".ModifyPageActivity" />
 
         <activity
             android:name=".LoginPageActivity"

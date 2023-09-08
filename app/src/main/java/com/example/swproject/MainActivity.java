@@ -21,6 +21,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ImageView modify =  findViewById(R.id.modify);
+
+        modify.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ModifyPageActivity.class);
+                startActivity(intent);
+            }
+        });
+
         TextView user_order =  findViewById(R.id.user_order);
         TextView user_point =  findViewById(R.id.user_point);
         TextView user_coupon =  findViewById(R.id.user_coupon);
